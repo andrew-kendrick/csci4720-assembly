@@ -34,7 +34,7 @@ gt_label:
     la $a0, message_larger
     li $v0, 4
     syscall
-    j main
+    j main #Loop back to beginning of main
 eq_label:
     la $a0, message_equal
     li $v0, 4
